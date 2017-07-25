@@ -27,7 +27,6 @@ public class AndroidLibActivity extends AppCompatActivity {
         String jokes = intent.getStringExtra("key");
         Toast.makeText(this, jokes, Toast.LENGTH_SHORT).show();
 
-
     }
 
     public void ShowJokes(View view) {
