@@ -16,14 +16,14 @@
         android:fontFamily="casual"
         android:textStyle="bold|italic"
         android:id="@+id/pop"
-        android:onClick="popupJokes"/>
+        android:onClick="PopupJokes"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GCE joke"
         android:fontFamily="casual"
         android:textStyle="bold|italic"
-        android:id="@+id/GCEJokes"
+        android:id="@+id/GceJokes"
         android:onClick="ShowJokes"/>
     <TextView
         android:layout_width="wrap_content"

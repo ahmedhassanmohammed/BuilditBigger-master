@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
-    public void Go_to_Jokes_clicked(View view) {
+    public void GotoJokesClicked(View view) {
 
         String joke = jokes.getJokes();
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
-    public void Goto_lib_Joke_clicked(View view)
+    public void GotoLibJokeClicked(View view)
     {
 
         Intent i =new Intent(MainActivity.this,AndroidLibActivity.class);

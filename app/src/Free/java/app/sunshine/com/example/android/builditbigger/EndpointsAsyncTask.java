@@ -22,13 +22,13 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
 
     private Context context;
     Intent intent;
-    MainActivity mainactivity;
+    MainActivity mainActivity;
 
 
-    public EndpointsAsyncTask(Intent intent , MainActivity mainactivity)
+    public EndpointsAsyncTask(Intent intent , MainActivity mainActivity)
     {
         this.intent =intent;
-        this.mainactivity=mainactivity;
+        this.mainActivity=mainActivity;
     }
 
     @Override
@@ -65,6 +65,6 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     protected void onPostExecute(String result) {
 
         intent.putExtra("myjoke",result);
-        mainactivity.startActivity(intent);
+        mainActivity.startActivity(intent);
     }
 }

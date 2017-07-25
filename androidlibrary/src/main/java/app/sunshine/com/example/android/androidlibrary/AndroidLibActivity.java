@@ -21,7 +21,7 @@ public class AndroidLibActivity extends AppCompatActivity {
     }
 
 
-    public void popupJokes(View view) {
+    public void PopupJokes(View view) {
 
         Intent intent = getIntent();
         String jokes = intent.getStringExtra("key");

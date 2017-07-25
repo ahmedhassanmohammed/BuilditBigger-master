@@ -14,14 +14,14 @@
        android:text="Joke showed in toast"
        android:fontFamily="casual"
        android:textStyle="bold|italic"
-       android:onClick="Go_to_Jokes_clicked"/>
+       android:onClick="GotoJokesClicked"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Joke by GCE"
         android:fontFamily="casual"
         android:textStyle="bold|italic"
-            android:onClick="Goto_lib_Joke_clicked"/>
+            android:onClick="GotoLibJokeClicked"/>
 
     <TextView
         android:layout_width="match_parent"
