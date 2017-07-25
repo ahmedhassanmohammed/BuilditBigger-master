@@ -1,0 +1,1 @@
+include ':app', ':myjokes', ':androidlibrary', ':backend'
